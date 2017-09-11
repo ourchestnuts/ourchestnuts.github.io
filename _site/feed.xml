@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chestnuts</title>
+    <description>It's never too late to get started.
+</description>
+    <link>http://localhost:4001/clean/</link>
+    <atom:link href="http://localhost:4001/clean/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 11 Sep 2017 14:20:04 +0800</pubDate>
+    <lastBuildDate>Mon, 11 Sep 2017 14:20:04 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Hello</title>
+        <description>&lt;p&gt;Hello Jekyll&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/clean/jekyll/update/2015/09/26/hello.html</link>
+        <guid isPermaLink="true">http://localhost:4001/clean/jekyll/update/2015/09/26/hello.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

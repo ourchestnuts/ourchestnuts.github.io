@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简历</title>
+    <meta charset="utf-8" />
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+        body{
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body class="container">
+   <!-- <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">Personal Resume</div>
+                    <!-- 添加小屏下下拉列表按钮 -->
+                    <!--
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#divNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="divNav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button class="btn btn-success navbar-btn" type="button" data-toggle="modal" data-target="#divModal" title="Print">Print</button>
+                            <div class="modal fade" id="divModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+                                            <h4 class="modal-title">返回到主页</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            	确定返回？
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-default" type="button" data-dismiss="modal">取消</button>
+                                            <button class="btn btn-primary" type="button" href="index.html">確定</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <button class="btn btn-info navbar-btn" data-toggle="tooltip" type="button" data-placement="buttom" title="Download">Download</button>
+                        <script type="text/javascript">
+                        // 鼠标放上去时的弹出提示
+                            $(funtion(){
+                                $('[data-toggle="tooltip"]').tooltip();
+                            });
+                        </script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>-->
+	
+    <div class="row">
+    <!-- 左侧 -->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">Personal Info</div>
+                <div class="panel-body">
+                    <img src="css/0.jpg" class="img-responsive img-rounded img-thumbnail" alt="Me">
+                    <p class="text-center text-primary">亓巍巍</p>
+                    <address style="right: auto;">
+                        <strong>中国</strong><br>
+                        <span class="glyphicon glyphicon-home" title="Address"><kbd>暂居地：北京市大兴区</kbd></span><br>
+                        <!--<span class="glyphicon glyphicon-file" title="PostalCoded">201201</span><br>-->
+                        <span class="glyphicon glyphicon-phone" title="Mobile">手机：17862954175</span><br>
+                        <span class="glyphicon glyphicon-envelope" title="Email"><code>邮箱：qiweiwei_hi@163.com</code></span>
+                    </address>
+                </div>
+            </div>
+        <!--    <div class="panel panel-info">
+                <div class="panel panel-heading">Personal Skill</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-muted">HTML5</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-success">IOS</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-info">PHP</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-info active" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-warning">JQuery</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-danger">CSS</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+        <!-- 右侧 -->
+        <div class="col-sm-9">
+            <div class="jumbotron">
+                <p class="text-left small">
+                喜欢编程、也喜欢算法，爱吃、爱玩、也爱学
+                
+                </p>
+            </div>
+
+            <div class="panel-group" id="accoradion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accoradion">教育经历</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2014/9-2018/6</div>
+                                            <div class="col-sm-4">山东师范大学</div>
+                                            <div class="col-sm-4"> 信息科学与工程学院&nbsp;&nbsp;物联网工程</div>
+                                        	 <div class="col-sm-4">主修课程：c语言程序设计、数据结构、计算机网络原理、微机原理</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-warning">
+                                        <div class="row">
+                                            <div class="col-sm-4">2016/12-至今</div>
+                                            <div class="col-sm-4">蓝桥软件学院</div>
+                                            <div class="col-sm-4">java开发工程师</div>
+                                             <div class="col-sm-4">培训课程：java、HTML、CSS、JavaScript、、jQuery、Oracle、JSP、Servlet等相关技术，以及CEP课程等相关培训。</div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseTwo" data-toggle="collapse" data-parent="#accoradion">校园实践</a>
+                        </div>
+
+
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-sm-4">2014-2016</div>
+                                            <div class="col-sm-4">学院学生会宣传部</div>
+                                            <div class="col-sm-4">干事</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-warning">
+                                        <div class="row">
+                                            <div class="col-sm-4">2014-2015</div>
+                                            <div class="col-sm-4">美团外卖</div>
+                                            <div class="col-sm-4">负责校园内美团外卖的宣传</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="list-group-item list-group-item-info">
+                                        <div class="row">
+                                            <div class="col-sm-4">2015/6和2016/6</div>
+                                            <div class="col-sm-4">在家乡开过辅导班</div>
+                                            <div class="col-sm-4">人数较少，约50人</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+					
+                    <!--<div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseThree" data-toggle="collapse" data-parent="#accoradion">项目经验</a>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="divCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#divCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#divCarousel" data-slide-to="1"></li>
+                                        <li data-target="#divCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="" alt="" class="img-responsive img-rounded">
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="img/1.png" alt="" class="img-responsive img-rounded">
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="img/1.png" alt="" class="img-responsive img-rounded">
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+                                    </div>
+                                    <a href="#divCarousel" class="left carousel-control" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a href="#divCarousel" class="right carousel-control" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+                <div class="panel panel-heading">ContactMe</div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" id="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="name" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <button type="submit" class="btn btn-primary pull-right">Send</button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+-->
+    <footer>
+        <nav class="navbar-fixed-bottom text-center navbar-default">
+            All images and contents &copy;亓巍巍
+        </nav>
+    </footer>
+</body>
+
+
+</html>
+
